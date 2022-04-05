@@ -1,0 +1,249 @@
+/* sub.css */
+@import url(./default.css);
+
+/* sub2-1 입양 - 센터아이들 */
+#sub2-1 #main {
+    width: 1200px;
+    margin: 0 auto;
+    /*background: #ccc;*/
+    overflow: hidden;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* 사이드바 - 모든 서브 공통 영역 */
+#main aside {
+    width: 260px;
+    /*background: #abc;*/
+    padding-top: 35px;
+    float: left;
+}
+
+#main > .contents {
+    width: 895px;
+    /*background: pink;*/
+    float: right;
+    padding-top: 50px;
+}
+
+#main aside h2 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 52px;
+    text-align: center;
+    margin-bottom: 33px;
+}
+
+#main #lnb {
+    margin-bottom: 270px;
+}
+
+#main #lnb li a {
+    background: var(--bg-light);
+    display: block;
+    padding: 12px 20px;
+    border-bottom: 1px solid #999;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* 현재 페이지 버튼 스타일 */
+#main #lnb li.lnb-on a {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+/* hover */
+#main aside #lnb li a:hover {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+/* 서브 배너 */
+.sub-banner {
+    width: 260px;
+    height: 195px;
+    border: 1px solid #dfdfdf;
+    text-align: center;
+  }
+
+  .sub-banner h3 {
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--secondary1);
+    margin-top: 20px;
+  }
+
+  .sub-banner p {
+    margin-top: 15px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .sub-banner p span {
+    font-weight: 700;
+  }
+
+  .sub-banner .yellow {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--secondary3);
+  }
+
+  .sub-banner .yellow span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin-right: 5px;
+    padding: 3px 9px;
+    background: var(--secondary3);
+    border-radius: 14px;
+  }
+
+/* 콘텐츠 부분 */
+#main > .contents > .article-header {
+    /*background: #abc;*/
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+#main > .contents > .article-header > h2 {
+    float: left;
+}
+
+#main > .contents > .article-header .breadcrumb {
+    float: right;
+    line-height: 35px;
+    font-size: 12px;
+}
+
+#main > .contents > .article-header .breadcrumb > * {
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+/* 콘텐츠 목록
+    width: 895px;
+    col-width = 285px
+    여백 20px
+ */
+#sub2-1 > #main .contents-group {
+    overflow: hidden;
+    /*background: #ddd;*/
+}
+
+#sub2-1 > #main .contents-group .info-box {
+    width: 285px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+/* 3열 마다 마진 빼기 */
+#sub2-1 > #main .contents-group .info-box:nth-child(3n) {
+    margin-right: 0;
+}
+
+#sub2-1 > #main .contents-group .info-box-info h4 {
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#sub2-1 > #main .contents-group .info-box-info p {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+#sub2-1 > #main .contents-group .info-box-info .bottom-info {
+    color: #666;
+}
+
+/* 오시는 길 5-1 */
+#sub5-1 #main .contact-info {
+    margin-bottom: 20px;
+    column-count: 2;
+    break-before: column;
+}
+
+#sub5-1 #main .contact-info li {
+    margin-bottom: 8px;
+}
+
+
+.contents-group .info-box img {
+    width: 290px;
+}
+
+
+
+/* center */
+#center .center-about {
+    display: flex;
+    justify-content: space-around;
+    width: 894px;
+    height: 464px;
+    background-color: var(--bg-light);
+}
+
+#center .center-about img {
+    width: 241px;
+    height: 323px;
+    margin-top: 68px;
+}
+
+.about-text1 {
+    margin-top: 33px;
+}
+
+.about-text1 h2 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.about-text1 h2 span {
+    color: var(--main-color);
+}
+
+.about-text1 p {
+    font-size: 16px;
+    margin-bottom: 55px;
+    color: #666;
+}
+
+.about-text1 h3 {
+    font-size: 20px;
+    margin-bottom: 18px;
+    font-weight: normal;
+}
+
+.support {
+    margin-left: 45px;
+}
+
+.support h2 {
+    color: var(--main-color);
+    font-size: 20px;
+    margin-top: 42px;
+    margin-bottom: 20px;
+}
+
+.support ol li {
+    margin-left: 15px;
+    font-size: 16px;
+    color: #666;
+}
+
+.support p {
+    margin-top: 16px;
+    margin-bottom: 17px;
+    color: #666;
+    font-size: 16px;
+}
+
+.support h1 {
+    font-size: 20px;
+    color: var(--main-color);
+}
