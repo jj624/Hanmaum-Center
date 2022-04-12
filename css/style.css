@@ -24,7 +24,7 @@
 
   header {
     width: 100%;
-    height: 84px;
+    height: 90px;
     /* background: #ccc; */
     position: relative;
     border-bottom: 3px solid var(--main-color);
@@ -37,7 +37,7 @@
   }
 
   .container h1 {
-    margin-top: 16px;
+    margin-top: 10px;
   }
 
   .container h1 img {
@@ -47,7 +47,7 @@
   #top-menu {
     position: absolute;
     right: 0;
-    top: 15px;
+    top: 10px;
   }
   
   #top-menu a {
@@ -62,7 +62,7 @@
   }
   
   header h1 {
-    padding-top: 18px;
+    padding-top: 20px;
   }
   
   #gnb {
@@ -84,7 +84,7 @@
   /* main-banner */
   
   #main-banner {
-    width: 1600px;
+    width: 100%;
     height: 750px;
     margin: 0 auto;
     overflow: hidden;
@@ -92,13 +92,13 @@
   }
 
   #main-banner .container {
-    width: 100%;
+    width: 1920px;
     height: 750px;
     position: absolute;
     margin: 0 auto;
     top: 0;
     /* 배너 중앙 배치 = 배너 너비 1/2 땡김 */
-    left: calc(50% - 800px);
+    left: calc(50% - 960px);
   }
   
   #main-banner img {
